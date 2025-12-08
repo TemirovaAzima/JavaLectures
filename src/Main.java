@@ -64,17 +64,25 @@ public static void main(String[] args) {
 //
 //    System.out.println("\np1: " + p1 + " p2: " + p2 + " p3: " + p3);
 
-      Person mary = new Person("John", 1980);
-      Person john = new Person("Mary",1985);
-      System.out.println("Two people created " + mary +" and " +  john);
-
-
-      Person older = mary.isOlderThan(john) ? mary : john;
-
-      System.out.println("Older is: " + older.getName() + " (born in " + older.getYear() + ")");
-
-      String s = "Older: " + older + " is older";
-      System.out.println(s);
+//      Person mary = new Person("John", 1980);
+//      Person john = new Person("Mary",1985);
+//      System.out.println("Two people created " + mary +" and " +  john);
+//
+//
+//      Person older = mary.isOlderThan(john) ? mary : john;
+//
+//      System.out.println("Older is: " + older.getName() + " (born in " + older.getYear() + ")");
+//
+//      String s = "Older: " + older + " is older";
+//      System.out.println(s);
+       StatExample.setRate(4.1);
+       System.out.println(StatExample.getID());
+       StatExample sa = new StatExample(10);
+       System.out.println(StatExample.getID());
+       StatExample sb = new StatExample(16);
+       System.out.println(StatExample.getID());
+       StatExample sc = new StatExample(20);
+       System.out.print(sc + "\n" + sb + "\n" + sa);
 
 
 }
