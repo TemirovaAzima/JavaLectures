@@ -3,6 +3,8 @@ public class TrivPoint {
     public void translate(int dx, int dy){
         x+=dx;
         y+=dy;
+
+
     }
     public void scale(int sx, int sy){
         x*=sx;
@@ -29,6 +31,6 @@ public class TrivPoint {
     }
     // non-static
     public void info(){
-        System.out.println("[" + this.x + "," + y + "]");
+        System.out.println("[" + this.x + "," + this.y + "]");
     }
 }
