@@ -48,20 +48,32 @@
 ////}
 
 public static void main(String[] args) {
-    System.out.println("\n*** Creating point p1 (1,2) ");
-    Point p1 = new Point(1,2);
+//    System.out.println("\n*** Creating point p1 (1,2) ");
+//    Point p1 = new Point(1,2);
+//
+//    System.out.println("\n*** Creating point p2 (1)");
+//    Point p2 = new Point(1);
+//
+//    System.out.println("\n*** Creating point p3 ()");
+//    Point p3 = new Point();
+//
+//    p3.translate(4,4).scale(2,3).translate(-1,-5);
+//
+//    System.out.println("\np1: [" + p1.getX() + "," +
+//                          p1.getY() + "]");
+//
+//    System.out.println("\np1: " + p1 + " p2: " + p2 + " p3: " + p3);
 
-    System.out.println("\n*** Creating point p2 (1)");
-    Point p2 = new Point(1);
+      Person mary = new Person("John", 1980);
+      Person john = new Person("Mary",1985);
+      System.out.println("Two people created " + mary +" and " +  john);
 
-    System.out.println("\n*** Creating point p3 ()");
-    Point p3 = new Point();
 
-    p3.translate(4,4).scale(2,3).translate(-1,-5);
+      Person older = mary.isOlderThan(john) ? mary : john;
 
-    System.out.println("\np1: [" + p1.getX() + "," +
-                          p1.getY() + "]");
+      System.out.println("Older is: " + older.getName() + " (born in " + older.getYear() + ")");
 
-    System.out.println("\np1: " + p1 + " p2: " + p2 + " p3: " + p3);
+      String s = "Older: " + older + " is older";
+      System.out.println(s);
 
 }
