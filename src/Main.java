@@ -1,88 +1,32 @@
-//public class Main {
-//      public static void main(String[] args){
-//          TrivPoint p = new TrivPoint();
-//          p.x = 1;
-//          p.y = 2;
-//          p.info();
-//          p.setX(3);
-//          p.info();
-//          System.out.println("x=" + p.getX() + "; " +
-//                            "y=" + p.getY());
-//          TrivPoint.infoStatic(p);
-//          p.infoStatic(p); // not recommended
-//          p.scale(2,3);
-//          p.info();
-//          p.translate(1,-3);
-//          p.info();
-//          TrivPoint.infoStatic(p);
-//          VerySimple alice = new VerySimple(23,"Alice");
-//          VerySimple bob = new VerySimple(21,"Bob");
-//          alice.setAge(27);
-//          System.out.println(
-//                  alice.getName() + " " + alice.getAge());
-//          System.out.println(
-//                  bob.getName() + " " + bob.getAge());
-//      }
-//
-//
-//}
-////class Thermostat{
-////    private double currentTemp;
-////    private double targetTemp;
-////    boolean on ;
-////
-////    public Thermostat(double currentTemp , double targetTemp){
-////        this.currentTemp = currentTemp;
-////        this.targetTemp = targetTemp;
-////        on = false;
-////    }
-////    public double getCurrentTemp(){
-////        return currentTemp;
-////    }
-////    public double getTargetTemp(){
-////        return targetTemp;
-////    }
-////    public void setTargetTemp(int targetTemp){
-////        this.targetTemp = targetTemp;
-////    }
-////}
-
 public static void main(String[] args) {
-//    System.out.println("\n*** Creating point p1 (1,2) ");
-//    Point p1 = new Point(1,2);
-//
-//    System.out.println("\n*** Creating point p2 (1)");
-//    Point p2 = new Point(1);
-//
-//    System.out.println("\n*** Creating point p3 ()");
-//    Point p3 = new Point();
-//
-//    p3.translate(4,4).scale(2,3).translate(-1,-5);
-//
-//    System.out.println("\np1: [" + p1.getX() + "," +
-//                          p1.getY() + "]");
-//
-//    System.out.println("\np1: " + p1 + " p2: " + p2 + " p3: " + p3);
+    // fibonacci
+    for(int n = 40 ; n <=46; n+=2){
+        SimpleRecur.counter = 0;
+        long r = SimpleRecur.fibon(n);
+        System.out.println("Fibo(" + n + " )= " + r +
+                         "; counter = " + SimpleRecur.counter);
+    }
 
-//      Person mary = new Person("John", 1980);
-//      Person john = new Person("Mary",1985);
-//      System.out.println("Two people created " + mary +" and " +  john);
-//
-//
-//      Person older = mary.isOlderThan(john) ? mary : john;
-//
-//      System.out.println("Older is: " + older.getName() + " (born in " + older.getYear() + ")");
-//
-//      String s = "Older: " + older + " is older";
-//      System.out.println(s);
-       StatExample.setRate(4.1);
-       System.out.println(StatExample.getID());
-       StatExample sa = new StatExample(10);
-       System.out.println(StatExample.getID());
-       StatExample sb = new StatExample(16);
-       System.out.println(StatExample.getID());
-       StatExample sc = new StatExample(20);
-       System.out.print(sc + "\n" + sb + "\n" + sa);
+    // Primes
+    System.out.println("Primes up to 100");
+    for(int i = 2; i <= 100 ; i++){
+        if(SimpleRecur.isPrimes(i,2)){
+            System.out.print(i + " ");
+        }
+    }
+    // factorials
+    System.out.println(SimpleRecur.factorial(5));
+    // NO ERROR BUT WRONG!!!
+    System.out.println(SimpleRecur.factorial(13));
+    // GCD
+
+    System.out.println(SimpleRecur.gcd(50,140));
+    int[] arr = {13,3,55,7,9,11};
+    SimpleRecur.printArrRec(arr,0);
+    SimpleRecur.printArrRecReverse(arr,0);
+    // find max
+    System.out.println(SimpleRecur.findMax(arr,0));
+    SimpleRecur.selSorRec(arr,0);
 
 
 }
