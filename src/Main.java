@@ -15,5 +15,15 @@ public static void main(String[] args) {
         bankAccount1.withdraw(100);
         bankAccount1.deposit(-600);
         bankAccount1.showBalance();
+        // 3
+    Person18 emily = new Person18("Emily");
+    Person18 evelyn = new Person18("Evelyn",1999);
+    System.out.println("Older: " + Person18.getOlderPerson(emily,evelyn).getName());
+//    Person18[] people = {emily,evelyn,new Person18("azima")};
+    Person18[] people = {new Person18("Erica",1904),emily,evelyn};
+    System.out.println("Oldest: " + Person18.getOldestPerson(people).getName());
+    // or u can do this way too
+    System.out.println("Oldest:" +Person18.getOldestPerson(new Person18[] {emily,evelyn,new Person18("Kim")}).getName());
 
-}
+
+    }

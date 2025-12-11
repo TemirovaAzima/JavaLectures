@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task1 ppj18)Thermostat class added">
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task2 ppj18)BankAccount class done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765451807335</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="(task2 ppj18)BankAccount class done">
+      <option name="closed" value="true" />
+      <created>1765455972924</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455972924</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +159,7 @@
     <MESSAGE value="SimpleRecur class done" />
     <MESSAGE value="(LECTURE CODE)SimpleRecur class" />
     <MESSAGE value="(task1 ppj18)Thermostat class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="(task1 ppj18)Thermostat class added" />
+    <MESSAGE value="(task2 ppj18)BankAccount class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="(task2 ppj18)BankAccount class done" />
   </component>
 </project>
