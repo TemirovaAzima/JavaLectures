@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task3 ppj18) Person class done">
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task4 ppj18) Jam class done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765461323325</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="(task4 ppj18) Jam class done">
+      <option name="closed" value="true" />
+      <created>1765464521625</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765464521625</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +177,7 @@
     <MESSAGE value="(task1 ppj18)Thermostat class added" />
     <MESSAGE value="(task2 ppj18)BankAccount class done" />
     <MESSAGE value="(task3 ppj18) Person class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="(task3 ppj18) Person class done" />
+    <MESSAGE value="(task4 ppj18) Jam class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="(task4 ppj18) Jam class done" />
   </component>
 </project>

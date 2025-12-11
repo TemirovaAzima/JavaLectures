@@ -32,5 +32,17 @@ public static void main(String[] args) {
     System.out.println(strawberry);
     System.out.println(peach);
     System.out.println(unknown);
+    // 5
+    Jar strawberryJar = new Jar(strawberry);
+    Jar peachJar = new Jar(peach);
+    Jar unknownJar = new Jar(unknown);
+    strawberryJar.open();
+    peachJar.close();
+    unknownJar.close();
+    System.out.println(unknownJar.isOpen());
+    System.out.println(strawberryJar);
+    System.out.println(peachJar);
+    System.out.println(unknownJar);
+
 
     }
