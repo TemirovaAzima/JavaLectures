@@ -43,6 +43,14 @@ public static void main(String[] args) {
     System.out.println(strawberryJar);
     System.out.println(peachJar);
     System.out.println(unknownJar);
+    // 6
+    Corn pack = new Corn(7);
+    Popcorn[] popcorns = pack.makePopcorn();
+//    for(Popcorn popcorn1 : corn.makePopcorn()){
+//        System.out.println(popcorn1);
+//    }
+    System.out.println("Number of popcorns: " + popcorns.length);
+    System.out.println(Arrays.toString(popcorns));
 
 
     }
