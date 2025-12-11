@@ -24,6 +24,13 @@ public static void main(String[] args) {
     System.out.println("Oldest: " + Person18.getOldestPerson(people).getName());
     // or u can do this way too
     System.out.println("Oldest:" +Person18.getOldestPerson(new Person18[] {emily,evelyn,new Person18("Kim")}).getName());
+    // 4
+    Jam strawberry = new Jam("Strawberry",0.5);
+    Jam peach = new Jam("Peach");
+    Jam unknown = new Jam(0.2);
 
+    System.out.println(strawberry);
+    System.out.println(peach);
+    System.out.println(unknown);
 
     }
