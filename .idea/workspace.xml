@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="SimpleRecur class done">
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(LECTURE CODE)SimpleRecur class">
+      <change afterPath="$PROJECT_DIR$/src/PPJ18Task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleRecur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +24,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TemirovaAzima&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TemirovaAzima/JavaLectures.git&quot;,
+    &quot;accountId&quot;: &quot;518ebb7f-00e9-4def-8142-4a4f7b4025b7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="36Yzb41B3DC5SANsU5p2UC0rPzj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.SimpleRec.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleRec.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="" />
@@ -113,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765302218244</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="(LECTURE CODE)SimpleRecur class">
+      <option name="closed" value="true" />
+      <created>1765303133282</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765303133282</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +142,7 @@
     <MESSAGE value="override toString() method in Person class" />
     <MESSAGE value="static fields and methods" />
     <MESSAGE value="SimpleRecur class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleRecur class done" />
+    <MESSAGE value="(LECTURE CODE)SimpleRecur class" />
+    <option name="LAST_COMMIT_MESSAGE" value="(LECTURE CODE)SimpleRecur class" />
   </component>
 </project>
