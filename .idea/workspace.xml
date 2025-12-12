@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(Inheritance) Animal,Dog,Cat classes end">
-      <change afterPath="$PROJECT_DIR$/PPJ19/PPJ19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPj 19 Inheritance (task1 done)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPJ19/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PPJ19/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765561693148</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="PPj 19 Inheritance (task1 done)">
+      <option name="closed" value="true" />
+      <created>1765563444511</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765563444511</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +245,7 @@
     <MESSAGE value="(task8 ppj18) Chaining class done" />
     <MESSAGE value="(Inheritance) Pixel,Point classes end" />
     <MESSAGE value="(Inheritance) Animal,Dog,Cat classes end" />
-    <option name="LAST_COMMIT_MESSAGE" value="(Inheritance) Animal,Dog,Cat classes end" />
+    <MESSAGE value="PPj 19 Inheritance (task1 done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPj 19 Inheritance (task1 done)" />
   </component>
 </project>

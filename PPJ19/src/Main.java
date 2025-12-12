@@ -6,6 +6,11 @@ public class Main {
         System.out.println(person.displayDetails());
         System.out.println(welder.displayDetails());
         // 2
+         Employee employee = new Employee("Jennifer" , "Lue",3000);
+         Manager manager = new Manager("Tiffany", "Leo",5000,0.2);
+         System.out.println(manager.getBaseSalary());
+         System.out.println(manager.totalSalary());
+         // 3
 
 
     }
