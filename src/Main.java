@@ -51,6 +51,15 @@ public static void main(String[] args) {
 //    }
     System.out.println("Number of popcorns: " + popcorns.length);
     System.out.println(Arrays.toString(popcorns));
+   // 7
+    Time time = new Time(1,115);
+    Time time2 = new Time(1,115);
+    System.out.println(time.getHours());
+    System.out.println(time.getMinutes());
 
+    System.out.println(time);
+    System.out.println(time2);
+    System.out.println();
+    time.addTime(time2);
 
     }
