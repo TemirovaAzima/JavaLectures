@@ -61,5 +61,8 @@ public static void main(String[] args) {
     System.out.println(time2);
     System.out.println();
     time.addTime(time2);
-
+    // Chaining
+    Chaining x = new Chaining(2,2);
+    Chaining x2 = new Chaining(3,3);
+    System.out.println(x.adding(3,3).adding(1,1));
     }
