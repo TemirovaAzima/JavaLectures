@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task7 ppj18) Time class done">
-      <change beforePath="$PROJECT_DIR$/src/Chaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="(task8 ppj18) Chaining class done">
+      <change afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="TaskManager">
@@ -190,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765545309781</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="(task8 ppj18) Chaining class done">
+      <option name="closed" value="true" />
+      <created>1765546056437</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765546056437</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +219,7 @@
     <MESSAGE value="(task5 ppj18) Jar class done" />
     <MESSAGE value="(task6 ppj18) Corn and Popcorn class done" />
     <MESSAGE value="(task7 ppj18) Time class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="(task7 ppj18) Time class done" />
+    <MESSAGE value="(task8 ppj18) Chaining class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="(task8 ppj18) Chaining class done" />
   </component>
 </project>
