@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] arg){
         // 1
@@ -39,6 +40,18 @@ public class Main {
         ImportedProduct importedProduct2 = new ImportedProduct("Watch",100,15);
         System.out.println(importedProduct2.getGrossPrice());
         System.out.println(importedProduct2.getGrossPrice());
+        // 5  // polymorphism
+        Publication publication = new Publication("Idol",500);
+        Publication audioBook = new AudioBook("AtomicHabits",1000,30,false);
+        Publication book = new Book("Harry Potter",100,256);
+        System.out.println(publication);
+        System.out.println(audioBook);
+        System.out.println(book);
+        System.out.println(Publication.currentNumPublication());
+        //6
+
+
+
 
 
     }
