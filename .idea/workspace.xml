@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPj 19 Inheritance (task7 done)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPj 20 Inheritance (task1 done)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPj20/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PPj20/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765726830011</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="PPj 20 Inheritance (task1 done)">
+      <option name="closed" value="true" />
+      <created>1765732479009</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765732479009</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +310,7 @@
     <MESSAGE value="PPj 19 Inheritance (task5 done)" />
     <MESSAGE value="PPj 19 Inheritance (task6 done)" />
     <MESSAGE value="PPj 19 Inheritance (task7 done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPj 19 Inheritance (task7 done)" />
+    <MESSAGE value="PPj 20 Inheritance (task1 done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPj 20 Inheritance (task1 done)" />
   </component>
 </project>

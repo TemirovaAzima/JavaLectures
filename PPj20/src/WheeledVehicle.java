@@ -7,7 +7,7 @@ public class WheeledVehicle extends Vehicle {
     }
 
     public int getNumberOfAxes(){
-        return getNumberOfAxes();
+        return numberOfAxes;
     }
 
 }
