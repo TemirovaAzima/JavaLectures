@@ -63,7 +63,13 @@ public class Main {
 //        System.out.println(point1.distance(point2));
 //        System.out.println(point2.distance(point1));
 
-
+        // 7
+        DebitCard acc = new DebitCard("Leo",700,1500);
+        acc.deposit(100);
+        System.out.println(acc.getBalance());
+        System.out.println(acc.withdraw(-200));
+        acc.withdraw(50);
+        System.out.println(acc.getBalance());
 
 
 
