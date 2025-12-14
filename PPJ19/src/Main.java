@@ -49,6 +49,20 @@ public class Main {
         System.out.println(book);
         System.out.println(Publication.currentNumPublication());
         //6
+        Point2D twoD = new Point2D(1,2);
+        Point2D twoD2 = new Point2D(4,6);
+        Point3D threeD = new Point3D(6,5,4);
+
+        System.out.println("3d - 2d = " + threeD.distance(twoD));
+        System.out.println("2d - 2d = " + twoD.distance(twoD2));
+        System.out.println("3d - 3d =" + threeD.distance(threeD));
+//        System.out.println(point2D1.distance(point2D2));
+//        Point3D point1 = new Point3D(1,2,3);
+//        Point3D point2 = new Point3D(4,6,5);
+//        System.out.println(point3D.distance(point3D2));
+//        System.out.println(point1.distance(point2));
+//        System.out.println(point2.distance(point1));
+
 
 
 
