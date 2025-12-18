@@ -432,45 +432,84 @@ public class Main {
 //        System.out.println(Arrays.toString(posOdd));
 //        System.out.println(Arrays.toString(negEven));
 
-        int[] arr = new int[100];
+//        int[] arr = new int[100];
+//
+//        for(int i =0; i < arr.length; i++){
+//            arr[i] = (int)(Math.random()*151) -50;
+//        }
+//
+//        int sum = 0;
+//        int counter=0;
+//        for(int i = 0; i <arr.length; i++){
+//            sum =0;
+//            int tmp = Math.abs(arr[i]);
+//            while(tmp >0){
+//                sum += tmp%10;
+//                tmp = tmp/10;
+//            }
+//            if(sum %2!=0){
+//                counter++;
+//            }
+//        }
+//
+//        System.out.println(counter);
+//        System.out.println(Arrays.toString(arr));
+//        int[] arrOdd = new int[counter];
+//
+//        int index =0;
+//        for(int i = 0; i <arr.length; i++){
+//            sum=0;
+//            int tmp = Math.abs(arr[i]);
+//            while(tmp >0){
+//                sum += tmp%10;
+//                tmp = tmp/10;
+//
+//            }
+//            if(sum %2!=0){
+//                arrOdd[index++] = arr[i];
+//            }
+//
+//        }
+//
+//        System.out.println(Arrays.toString(arrOdd));
 
-        for(int i =0; i < arr.length; i++){
-            arr[i] = (int)(Math.random()*151) -50;
+        int[] arr = new int[80];
+
+        for(int i = 0 ; i < arr.length; i++){
+            arr[i] = (int) (Math.random() *101) - 30;
         }
-
-        int sum = 0;
-        int counter=0;
-        for(int i = 0; i <arr.length; i++){
-            sum =0;
+        int counter = 0;
+        for(int i =0 ; i < arr.length; i++){
             int tmp = Math.abs(arr[i]);
-            while(tmp >0){
-                sum += tmp%10;
-                tmp = tmp/10;
+            int product=1;
+            if(tmp == 0){
+                product =0;
             }
-            if(sum %2!=0){
+            while(tmp>0){
+                product *= tmp%10;
+                tmp/=10;
+            }
+            if(product % 2==0){
                 counter++;
             }
         }
+        int[] evenProdDig = new int[counter];
 
-        System.out.println(counter);
-        System.out.println(Arrays.toString(arr));
-        int[] arrOdd = new int[counter];
-
-        int index =0;
-        for(int i = 0; i <arr.length; i++){
-            sum=0;
+        int index = 0;
+        for(int i =0 ; i < arr.length; i++){
             int tmp = Math.abs(arr[i]);
-            while(tmp >0){
-                sum += tmp%10;
-                tmp = tmp/10;
-
+            int product = 1;
+            if(tmp==0){
+                product =0;
             }
-            if(sum %2!=0){
-                arrOdd[index++] = arr[i];
+            while(tmp>0){
+                product *= tmp%10;
+                tmp/=10;
             }
-
+            if(product % 2 ==0){
+                evenProdDig[index++] = arr[i];
+            }
         }
-
-        System.out.println(Arrays.toString(arrOdd));
+        System.out.println(Arrays.toString(evenProdDig));
 
 }}

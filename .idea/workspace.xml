@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="2D arrays">
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPJ test 1 open question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/Main.java" afterDir="false" />
     </list>
@@ -302,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1766012257745</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="PPJ test 1 open question">
+      <option name="closed" value="true" />
+      <created>1766070840625</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1766070840626</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Point class was added" />
     <MESSAGE value="override toString() method in Person class" />
     <MESSAGE value="static fields and methods" />
     <MESSAGE value="SimpleRecur class done" />
@@ -331,6 +338,7 @@
     <MESSAGE value="PPj 20 Inheritance (task2 done)" />
     <MESSAGE value="PPjT some code" />
     <MESSAGE value="2D arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="2D arrays" />
+    <MESSAGE value="PPJ test 1 open question" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPJ test 1 open question" />
   </component>
 </project>
