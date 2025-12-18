@@ -512,48 +512,50 @@ public class Main {
 //        }
 //        System.out.println(Arrays.toString(evenProdDig));
 
-        int[] arr = new int[60];
-        for(int i =0; i <arr.length; i++){
-            arr[i] = (int) (Math.random() *131) -90;
-        }
-        int counter =0;
-        for(int i = 0; i < arr.length; i++){
-            int odd = 0;
-            int even = 0;
-            int tmp = Math.abs(arr[i]);
-            if(tmp == 0){
-                even = 1;
-            }
-            while(tmp> 0){
-                even += (tmp % 10) % 2 ==0 ? 1 : 0;
-                odd += (tmp %10) % 2 !=0 ? 1 : 0;
-                tmp/=10;
-            }
-            if(odd > even){
-                counter++;
-            }
-        }
-
-        System.out.println(Arrays.toString(arr));
-        int[] arr2  = new int[counter];
-
-        int index =0;
-        for(int i =0 ; i < arr.length; i++){
-            int odd = 0;
-            int even = 0;
-            int tmp = Math.abs(arr[i]);
-            if(tmp ==0){
-                even =1;
-            }
-            while(tmp> 0){
-                even += (tmp % 10) % 2 ==0 ? 1 : 0;
-                odd += (tmp %10) % 2 !=0 ? 1 : 0;
-                tmp/=10;
-            }
-            if(odd>even){
-                arr2[index++] = arr[i];
-            }
-        }
-        System.out.println(Arrays.toString(arr2));
+//        int[] arr = new int[60];
+//        for(int i =0; i <arr.length; i++){
+//            arr[i] = (int) (Math.random() *131) -90;
+//        }
+//        int counter =0;
+//        for(int i = 0; i < arr.length; i++){
+//            int odd = 0;
+//            int even = 0;
+//            int tmp = Math.abs(arr[i]);
+//            if(tmp == 0){
+//                even = 1;
+//            }
+//            while(tmp> 0){
+//                even += (tmp % 10) % 2 ==0 ? 1 : 0;
+//                odd += (tmp %10) % 2 !=0 ? 1 : 0;
+//                tmp/=10;
+//            }
+//            if(odd > even){
+//                counter++;
+//            }
+//        }
+//
+//        System.out.println(Arrays.toString(arr));
+//        int[] arr2  = new int[counter];
+//
+//        int index =0;
+//        for(int i =0 ; i < arr.length; i++){
+//            int odd = 0;
+//            int even = 0;
+//            int tmp = Math.abs(arr[i]);
+//            if(tmp ==0){
+//                even =1;
+//            }
+//            while(tmp> 0){
+//                even += (tmp % 10) % 2 ==0 ? 1 : 0;
+//                odd += (tmp %10) % 2 !=0 ? 1 : 0;
+//                tmp/=10;
+//            }
+//            if(odd>even){
+//                arr2[index++] = arr[i];
+//            }
+//        }
+//        System.out.println(Arrays.toString(arr2));
+        int[] arr = {1,2,3,4,5,6,7,8};
+        SwapElements.swElems(arr);
 
 }}
