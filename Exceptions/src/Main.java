@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
 
 //public class Main {
@@ -324,13 +326,151 @@ public class Main {
 //            }
 
 
-            int[][] arr8 = {{-99,2,3,-9},
-                            {7,-1,4,-10},
-                            {-109,0,89,9},
-                             {9,0,2,-8}};
-            try{
-                Sum.cols2(arr8);
-            }catch (Exception e){
-                System.out.println(e.getMessage());
+//        PascalTriangle.pascalTri(9);
+//            int[][] arr8 = {{-99,2,3,-9},
+//                            {7,-1,4,-10},
+//                            {-109,0,89,9},
+//                             {9,0,2,-8}};
+//            try{
+//                Sum.cols2(arr8);
+//            }catch (Exception e){
+//                System.out.println(e.getMessage());
+//            }
+//        int[] arr = new int[]{1,3,4,5};
+//        PascalTriangle.swap(arr,1,3);
+//
+//        System.out.println(PascalTriangle.area(5));
+//        System.out.println(PascalTriangle.area(4,5));
+//        System.out.println(PascalTriangle.area(4,5,7));
+        // task from previous test
+
+//        int[] arr = new int[100];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = (int) (Math.random() * 150 - 50);
+//        }
+//        int sum = 0;
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            sum += arr[i];
+//        }
+//
+//
+//        if (sum % 2 != 0) {
+//            int[] arr2 = new int[arr.length];
+//            for (int i = 0; i < arr.length; i++) {
+//                arr2[i] = arr[i];
+//            }
+//            System.out.println(Arrays.toString(arr2));
+//        }
+
+//        int[] arr = new int[100];
+//
+//        for(int i = 0; i < arr.length ; i++){
+//            arr[i] = (int)(Math.random()*81) - 40;
+//        }
+//        int counter = 0;
+//        for(int i = 0; i < arr.length;i++){
+//            if(arr[i] % 2 !=0){
+//                counter++;
+//            }
+//        }
+//
+//        int[] arr2 = new int[counter];
+//        int index =0;
+//        for(int i = 0 ; i <arr.length; i++){
+//            if(arr[i] % 2 !=0){
+//                arr2[index] = arr[i];
+//                index++;
+//            }
+//        }
+//        for(int i = 0 ; i < arr2.length ; i++){
+//            for(int j = i+1 ; j < arr2.length ; j++){
+//                if(arr2[i] > arr2[j]){
+//                    int tmp = arr2[i];
+//                    arr2[i] = arr2[j];
+//                    arr2[j] = tmp;
+//                }
+//            }
+//        }
+//
+//        System.out.println(Arrays.toString(arr2));
+//        for(int i = arr2.length -1 ; i >= 0; i--){
+//            System.out.print(arr2[i] + " ");
+//        }
+//
+//        int[] arr = new int[50];
+//
+//        for(int i = 0 ; i <arr.length ; i++){
+//            arr[i] = (int)(Math.random() * 151) -100;
+//        }
+//
+//        System.out.println(Arrays.toString(arr));
+//        int posOddCounter =0;
+//        int negEvenCounter =0;
+//        for(int i = 0; i < arr.length;i++){
+//            if(arr[i] % 2 !=0 && arr[i] >0){
+//                posOddCounter++;
+//            }
+//            if(arr[i] % 2 ==0 && arr[i] <0){
+//                negEvenCounter++;
+//            }
+//        }
+//        int[] posOdd = new int[posOddCounter];
+//        int[] negEven = new int[negEvenCounter];
+//
+//        int index =0;
+//        int index2 =0;
+//        for(int i = 0; i < arr.length; i++){
+//            if(arr[i] % 2 != 0 && arr[i] > 0){
+//                posOdd[index++] = arr[i];
+//            }
+//             if(arr[i] % 2 ==0  && arr[i] <0){
+//                 negEven[index2++] = arr[i];
+//             }
+//        }
+//        System.out.println(Arrays.toString(posOdd));
+//        System.out.println(Arrays.toString(negEven));
+
+        int[] arr = new int[100];
+
+        for(int i =0; i < arr.length; i++){
+            arr[i] = (int)(Math.random()*151) -50;
+        }
+
+        int sum = 0;
+        int counter=0;
+        for(int i = 0; i <arr.length; i++){
+            sum =0;
+            int tmp = Math.abs(arr[i]);
+            while(tmp >0){
+                sum += tmp%10;
+                tmp = tmp/10;
             }
+            if(sum %2!=0){
+                counter++;
+            }
+        }
+
+        System.out.println(counter);
+        System.out.println(Arrays.toString(arr));
+        int[] arrOdd = new int[counter];
+
+        int index =0;
+        for(int i = 0; i <arr.length; i++){
+            sum=0;
+            int tmp = Math.abs(arr[i]);
+            while(tmp >0){
+                sum += tmp%10;
+                tmp = tmp/10;
+
+            }
+            if(sum %2!=0){
+                arrOdd[index++] = arr[i];
+            }
+
+        }
+
+        System.out.println(Arrays.toString(arrOdd));
+
 }}

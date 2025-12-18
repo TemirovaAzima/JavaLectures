@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPjT some code">
-      <change afterPath="$PROJECT_DIR$/PPj20/PPJT/PPJT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/PPJT/PPJT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/PPJT/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/PPJT/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/src/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/src/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPj20/src/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="2D arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765744200250</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2D arrays">
+      <option name="closed" value="true" />
+      <created>1766012257745</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1766012257745</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -330,6 +330,7 @@
     <MESSAGE value="PPj 20 Inheritance (task1 done)" />
     <MESSAGE value="PPj 20 Inheritance (task2 done)" />
     <MESSAGE value="PPjT some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPjT some code" />
+    <MESSAGE value="2D arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="2D arrays" />
   </component>
 </project>
