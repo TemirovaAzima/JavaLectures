@@ -472,44 +472,88 @@ public class Main {
 //        }
 //
 //        System.out.println(Arrays.toString(arrOdd));
+//
+//        int[] arr = new int[80];
+//
+//        for(int i = 0 ; i < arr.length; i++){
+//            arr[i] = (int) (Math.random() *101) - 30;
+//        }
+//        int counter = 0;
+//        for(int i =0 ; i < arr.length; i++){
+//            int tmp = Math.abs(arr[i]);
+//            int product=1;
+//            if(tmp == 0){
+//                product =0;
+//            }
+//            while(tmp>0){
+//                product *= tmp%10;
+//                tmp/=10;
+//            }
+//            if(product % 2==0){
+//                counter++;
+//            }
+//        }
+//        int[] evenProdDig = new int[counter];
+//
+//        int index = 0;
+//        for(int i =0 ; i < arr.length; i++){
+//            int tmp = Math.abs(arr[i]);
+//            int product = 1;
+//            if(tmp==0){
+//                product =0;
+//            }
+//            while(tmp>0){
+//                product *= tmp%10;
+//                tmp/=10;
+//            }
+//            if(product % 2 ==0){
+//                evenProdDig[index++] = arr[i];
+//            }
+//        }
+//        System.out.println(Arrays.toString(evenProdDig));
 
-        int[] arr = new int[80];
-
-        for(int i = 0 ; i < arr.length; i++){
-            arr[i] = (int) (Math.random() *101) - 30;
+        int[] arr = new int[60];
+        for(int i =0; i <arr.length; i++){
+            arr[i] = (int) (Math.random() *131) -90;
         }
-        int counter = 0;
-        for(int i =0 ; i < arr.length; i++){
+        int counter =0;
+        for(int i = 0; i < arr.length; i++){
+            int odd = 0;
+            int even = 0;
             int tmp = Math.abs(arr[i]);
-            int product=1;
             if(tmp == 0){
-                product =0;
+                even = 1;
             }
-            while(tmp>0){
-                product *= tmp%10;
+            while(tmp> 0){
+                even += (tmp % 10) % 2 ==0 ? 1 : 0;
+                odd += (tmp %10) % 2 !=0 ? 1 : 0;
                 tmp/=10;
             }
-            if(product % 2==0){
+            if(odd > even){
                 counter++;
             }
         }
-        int[] evenProdDig = new int[counter];
 
-        int index = 0;
+        System.out.println(Arrays.toString(arr));
+        int[] arr2  = new int[counter];
+
+        int index =0;
         for(int i =0 ; i < arr.length; i++){
+            int odd = 0;
+            int even = 0;
             int tmp = Math.abs(arr[i]);
-            int product = 1;
-            if(tmp==0){
-                product =0;
+            if(tmp ==0){
+                even =1;
             }
-            while(tmp>0){
-                product *= tmp%10;
+            while(tmp> 0){
+                even += (tmp % 10) % 2 ==0 ? 1 : 0;
+                odd += (tmp %10) % 2 !=0 ? 1 : 0;
                 tmp/=10;
             }
-            if(product % 2 ==0){
-                evenProdDig[index++] = arr[i];
+            if(odd>even){
+                arr2[index++] = arr[i];
             }
         }
-        System.out.println(Arrays.toString(evenProdDig));
+        System.out.println(Arrays.toString(arr2));
 
 }}
