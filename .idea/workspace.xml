@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPJ test swaps the firsthalf with the second half, preserving the internal order of each half.">
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPJT MaxCol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/MaxCol.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/MaxCol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1766077563033</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="PPJT MaxCol">
+      <option name="closed" value="true" />
+      <created>1766079544923</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1766079544923</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="(task1 ppj18)Thermostat class added" />
     <MESSAGE value="(task2 ppj18)BankAccount class done" />
     <MESSAGE value="(task3 ppj18) Person class done" />
     <MESSAGE value="(task4 ppj18) Jam class done" />
@@ -371,6 +379,7 @@
     <MESSAGE value="PPJ test similar open question (the number of odd digits in the number is greater than the number of even digit)" />
     <MESSAGE value="PPJ test swapElem" />
     <MESSAGE value="PPJ test swaps the firsthalf with the second half, preserving the internal order of each half." />
-    <option name="LAST_COMMIT_MESSAGE" value="PPJ test swaps the firsthalf with the second half, preserving the internal order of each half." />
+    <MESSAGE value="PPJT MaxCol" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPJT MaxCol" />
   </component>
 </project>

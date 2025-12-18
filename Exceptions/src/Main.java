@@ -557,8 +557,10 @@ public class Main {
 //        System.out.println(Arrays.toString(arr2));
 //        int[] arr = {1,2,3,4,5,6,7,8};
 //        SwapElements.swElems(arr);
-        int[][] arr = {{1,23,3,4},
-                        {5,6,77,8},
-                       {9,10,11,12}};
-        MaxCol.maxCol(arr);
+        int[][] arr = {{1,23},
+                        {5,6},
+                       {9,10}};
+//        MaxCol.maxCol(arr);
+//           MaxCol.transpose(arr);
+        MaxCol.cols2(arr);
 }}
