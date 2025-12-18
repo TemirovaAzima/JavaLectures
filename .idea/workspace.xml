@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPJT MaxCol">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/Main.java" afterDir="false" />
+    <list default="true" id="2fa34003-6753-4cc8-8fbc-2baa5b22ff77" name="Changes" comment="PPJT min from each col">
       <change beforePath="$PROJECT_DIR$/Exceptions/src/MaxCol.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/MaxCol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1766079544923</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="PPJT min from each col">
+      <option name="closed" value="true" />
+      <created>1766082204587</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1766082204587</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="(task2 ppj18)BankAccount class done" />
     <MESSAGE value="(task3 ppj18) Person class done" />
     <MESSAGE value="(task4 ppj18) Jam class done" />
     <MESSAGE value="(task5 ppj18) Jar class done" />
@@ -380,6 +385,7 @@
     <MESSAGE value="PPJ test swapElem" />
     <MESSAGE value="PPJ test swaps the firsthalf with the second half, preserving the internal order of each half." />
     <MESSAGE value="PPJT MaxCol" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPJT MaxCol" />
+    <MESSAGE value="PPJT min from each col" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPJT min from each col" />
   </component>
 </project>

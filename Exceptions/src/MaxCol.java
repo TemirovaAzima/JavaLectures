@@ -31,20 +31,32 @@ public class MaxCol {
 //        return transp;
 //    }
 
-    public static int[] cols2(int[][] arr){
+//    public static int[] cols2(int[][] arr){
+//
+//        int[] col = new int[arr[0].length];
+//        for(int i = 0; i <arr[0].length; i++){
+//            col[i] = arr[0][i];
+//            for(int j =0; j < arr.length; j++){
+//                if(arr[j][i] < col[i]){
+//                    col[i] = arr[j][i];
+//                }
+//            }
+//        }
+//        System.out.println(Arrays.toString(col));
+//        return col;
+//    }
+         public static int[] cols2(int[][] arr) {
+           int[] minFromRow = new int[arr.length];
 
-        int[] col = new int[arr[0].length];
-        for(int i = 0; i <arr[0].length; i++){
-            col[i] = arr[0][i];
-            for(int j =0; j < arr.length; j++){
-                if(arr[j][i] < col[i]){
-                    col[i] = arr[j][i];
-                }
-            }
-        }
-        System.out.println(Arrays.toString(col));
-        return col;
-    }
-
-
+           for(int i =0; i < arr.length; i++){
+               minFromRow[i] = arr[i][0];
+               for(int j = 0; j <arr[0].length; j++){
+                   if(arr[i][j] < minFromRow[i]){
+                       minFromRow[i] = arr[i][j];
+                   }
+               }
+           }
+             System.out.println(Arrays.toString(minFromRow));
+             return minFromRow;
+         }
 }
