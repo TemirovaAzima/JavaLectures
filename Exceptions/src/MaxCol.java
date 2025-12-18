@@ -45,18 +45,37 @@ public class MaxCol {
 //        System.out.println(Arrays.toString(col));
 //        return col;
 //    }
-         public static int[] cols2(int[][] arr) {
-           int[] minFromRow = new int[arr.length];
+//         public static int[] cols2(int[][] arr) {
+//           int[] minFromRow = new int[arr.length];
+//
+//           for(int i =0; i < arr.length; i++){
+//               minFromRow[i] = arr[i][0];
+//               for(int j = 0; j <arr[0].length; j++){
+//                   if(arr[i][j] < minFromRow[i]){
+//                       minFromRow[i] = arr[i][j];
+//                   }
+//               }
+//           }
+//             System.out.println(Arrays.toString(minFromRow));
+//             return minFromRow;
+//         }
+          public static int cols2(int[][] arr){
 
-           for(int i =0; i < arr.length; i++){
-               minFromRow[i] = arr[i][0];
-               for(int j = 0; j <arr[0].length; j++){
-                   if(arr[i][j] < minFromRow[i]){
-                       minFromRow[i] = arr[i][j];
-                   }
-               }
-           }
-             System.out.println(Arrays.toString(minFromRow));
-             return minFromRow;
-         }
+              int maxDiag = arr[0][0];
+              int maxAnti = arr[0][arr.length-1];
+              int max = 0;
+              for(int i =1; i <arr.length; i++){
+                if(arr[i][i] > maxDiag){
+                    maxDiag = arr[i][i];
+
+                }
+
+                if(arr[i][arr.length-1-i] > maxAnti){
+                    maxAnti = arr[i][arr.length-1-i];
+                }
+              }
+              max = maxAnti > maxDiag ? maxAnti : maxDiag;
+              System.out.println(max);
+              return max;
+          }
 }
